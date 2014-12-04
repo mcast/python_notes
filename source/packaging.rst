@@ -25,13 +25,13 @@ What is commonly called a **package** could be in fact a :term:`distribution pac
 
 
 A Python package (Import Package) allows you to combine several modules to be imported from the Python
-shell (or script) under a given name. In practice, it is a directory that contains one or more python files (.py extension) **and** a special file named **__init__.py**. This file can be empty but must be present. Here is an example of an import package called **Package1**, which is contained in the a dicretory called **Project**::
+shell (or script) under a given name. In practice, it is a directory that contains one or more python files (.py extension) **and** a special file named **__init__.py**. This file can be empty but must be present. Here is an example of an import package called **Package1**, which is contained in the a directory called **Project**::
 
 
     .
     └── Project
         ├── setup.py
-        ├── project
+        ├── Package1
             ├── module1.py
             ├── module2.py
             ├── module3.py
