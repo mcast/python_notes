@@ -97,9 +97,9 @@ Setuptools
 ==================
 
 The **setup.py** python script has many options. We've seen the **install** and **sdist** cases. 
-The other useful option is **develop**, which can also install the package with a symlink, so that changes to the source files will be immediately available. This is very handy for development.
+The other useful option is **develop**, which can also install the package with symlink-like ``*.egg-link`` files, so that changes to the source files will be immediately available. This is very handy for development.
 
-However, be aware not to mix install and develop modes.
+However, be aware not to mix install and develop modes on a project.
 
 Where are packages/files installed ?
 ==========================================
